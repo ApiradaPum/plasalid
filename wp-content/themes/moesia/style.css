@@ -1984,3 +1984,12 @@ section .container {
     height: 100% !important;
 }
 /* SiteOrigin Post Carousel Widget compatibility fix end */
+
+.top-bar{
+	    border-bottom: 1px solid gray;
+	    opacity: 1;
+}
+
+#sidebar-footer{
+	border-top: 1px solid gray;
+}
