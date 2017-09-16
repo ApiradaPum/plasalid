@@ -4,7 +4,7 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
 
 	<?php if ( (has_post_thumbnail()) && ( get_theme_mod( 'moesia_post_img' )) ) : ?>
 		<div class="single-thumb">
