@@ -3370,3 +3370,7 @@ body {
 		transform: scale(1);
 	}
 }
+
+.site-footer-widgets{
+	text-align: center;
+}
