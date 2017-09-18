@@ -3374,3 +3374,27 @@ body {
 .site-footer-widgets{
 	text-align: center;
 }
+
+
+.site-footer-widget-column .widget widget_text{
+      margin-bottom: 0px;
+}
+
+.site-footer-widget-column #text-8{
+      margin-bottom: 0px;
+}
+
+.site-footer-widget-column #media_image-3{
+     display:flex;
+      justify-content: center;
+}
+
+.site-footer-widget-column #media_image-3 .widget-title{
+    order: 2;
+    margin-left: 20px;
+    margin-top: 14px;
+}
+
+.site-footer-widget-column #media_image-3 .wp-image-133{
+    order: 1;
+}
