@@ -17,7 +17,7 @@
 
 	</header><!-- .entry-header -->
 
-	<?php //counter_post_thumbnail(); ?>
+	<?php counter_post_thumbnail(); ?>
 
 	<div class="entry-content">
 
