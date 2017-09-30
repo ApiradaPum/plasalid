@@ -18,8 +18,15 @@ get_header();?>
 			<?php the_archive_description( '<div class="taxonomy-description">', '</div>' ); ?>
 
 		</header><!-- .page-header -->
-		<div class="container">
+		<div class="container" style="margin-top: -40px;">
 			<div class="row">
+				<?php if(in_category('ปลาสลิด')): ?>
+				<h3 style="text-align: center; color: red; width: 1000%; padding-bottom: 20px;">
+					<strong>โปรโมชั่น ส่งฟรี เมื่อสั่งจำนวน 4 กิโล ขึ้นไป <br>
+						(สามารถคละแบบและขนาดได้)
+					</strong></h3>
+				<?php endif; ?>
+				<br>
 				<?php while ( have_posts() ) : the_post(); ?>
 						<?php get_template_part( 'template-parts/content-custom'); ?>
 				<?php endwhile; ?>

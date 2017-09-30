@@ -3466,3 +3466,7 @@ html{
 .plasalid .post img{
 	height: 350px;
 }
+
+.img-post-custom a:hover img{
+	opacity: 0.8;
+}
