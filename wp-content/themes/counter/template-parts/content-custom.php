@@ -11,6 +11,9 @@
 <?php if(in_category('ปลาสลิด')){ ?>
 <div class="col-lg-6 col-sm-6 col-xs-12 img-post-custom plasalid">
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+		<header class="entry-header">
+			<?php the_title( sprintf( '<h3 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h3>' ); ?>
+		</header><!-- .entry-header -->
 		<?php  if(has_tag('one')){ ?>
 		<table>
 			<thead>
@@ -57,9 +60,7 @@
 			</table>
 			<?php  } ?>
 		<?php counter_post_thumbnail(); ?>
-		<header class="entry-header">
-			<?php the_title( sprintf( '<h3 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h3>' ); ?>
-		</header><!-- .entry-header -->
+		
 		<?php
 			/* Translators: %s: title of the post. */
 			the_content( sprintf( __( 'Continue reading %s', 'counter' ), the_title( '<span class="screen-reader-text">"', '"</span>', false ) ) );

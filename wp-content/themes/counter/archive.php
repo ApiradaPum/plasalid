@@ -11,6 +11,7 @@ get_header();?>
 
 	<?php if ( have_posts() ) : ?>
 
+		<?php if(!in_category('ปลาสลิด')){ ?>
 		<header class="page-header" style="padding-left: 15px;padding-right: 15px;">
 
 			<?php the_archive_title( '<h1 class="page-title">', '</h1>' ); ?>
@@ -18,6 +19,7 @@ get_header();?>
 			<?php the_archive_description( '<div class="taxonomy-description">', '</div>' ); ?>
 
 		</header><!-- .page-header -->
+		<?php  }?>
 		<div class="container" style="margin-top: -40px;">
 			<div class="row">
 				<?php if(in_category('ปลาสลิด')): ?>
