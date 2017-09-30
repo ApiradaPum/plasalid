@@ -3452,3 +3452,17 @@ html{
 .img-post-custom img{
 	height: 206px;
 }
+
+.blog .entry-title, .archive .entry-title {
+    letter-spacing: 1px;
+}
+
+@media screen and (min-width: 768px){
+    .main-navigation ul ul {
+        width: 100%;
+    }
+}
+
+.plasalid .post img{
+	height: 300px;
+}
